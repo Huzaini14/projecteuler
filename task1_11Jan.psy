@@ -1,0 +1,7 @@
+total = 0 
+
+for i in range(1,1000): # start at 1 end at 5 (initial and ending (not inclusive)) (1(start),6(end),2 - increase by 2)
+  #print (i)
+  if (i % 3 == 0) or (i % 5 ==0):# i is multiple of 3 divisable because remainder = 0 
+    total = total + i 
+print(total) 
